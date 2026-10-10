@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>A Birthday Surprise 🎂</title>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🎂</text></svg>">
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Quicksand:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <canvas id="bg"></canvas><canvas id="fx"></canvas>
+  <div class="top"><button id="mus" title="Music">🎵</button><button id="thm" title="Theme">🌗</button></div>
+
+  <section class="stage on" id="s0">
+    <h1 id="hello"></h1>
+    <p>Someone has been planning something special just for you.</p>
+    <div class="gift" id="gift"><div class="glid"></div><div class="gbox"></div></div>
+    <div class="hint">Tap the gift to open it 🎁</div>
+  </section>
+
+  <section class="stage" id="s1">
+    <h1 id="hb"></h1>
+    <p>Make a wish… then tap each flame to blow out the candles 🕯️</p>
+    <div class="cake">
+      <div class="candles" id="candles"></div>
+      <div class="tier t1"></div><div class="tier t2"></div><div class="tier t3"></div><div class="plate"></div>
+    </div>
+    <div class="hint" id="left"></div>
+  </section>
+
+  <section class="stage" id="s2">
+    <h2 id="dear"></h2>
+    <div class="card letter"><div id="text"></div><div class="sign" id="sign"></div></div>
+    <div class="reasons" id="reasons"></div>
+    <button class="btn" id="again">Celebrate again 🎉</button>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
